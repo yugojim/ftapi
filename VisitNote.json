@@ -1,0 +1,323 @@
+{
+    "resourceType": "Composition",
+    "id": "",
+    "language": "zh-TW",
+    "text": {
+        "status": "generated",
+        "div": ""
+    },
+    "status": "preliminary",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "28579-1",
+                "display": "Visit note"
+            }
+        ]
+    },
+    "subject": {        
+        "display": ""
+    },
+    "encounter": {
+        "display": ""
+    },
+    "date": "",
+    "author": [
+        {            
+            "display": ""
+        }
+    ],
+    "title": "門診病歷",
+    "confidentiality": "N",
+    "attester": [
+        {
+            "mode": "professional",
+            "time": ""
+        }
+    ],
+    "custodian": {        
+        "display": ""
+    },
+    "section": [
+        {
+            "title": "實驗室檢查紀錄",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "19146-0",
+                        "display": "Reference lab test results"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [                
+            ]
+        },
+        {
+            "title": "重大傷病",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "11338-1",
+                        "display": "History of major illnesses and injuries"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [                
+            ]
+        },
+        {
+            "title": "過敏史",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "10155-0",
+                        "display": "History of allergies, reported"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+            ]
+        },
+        {
+            "title": "病人生活史",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "29762-2",
+                        "display": "Social history Narrative"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table>\n<tr>\n<b>病人生活史:</b></tr>\n</table></div>"
+            },
+            "section": [
+                {
+                    "title": "就診年齡",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "29553-5",
+                                "display": "Age calculated"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                },
+                {
+                    "title": "職業",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "21847-9",
+                                "display": "Usual occupation Narrative"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                },
+                {
+                    "title": "就醫身分別",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "63513-6",
+                                "display": "Are you covered by health insurance or some other kind of health care plan"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                }
+            ]
+        },
+        {
+            "title": "診斷",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "29548-5",
+                        "display": "Diagnosis Narrative"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+            ]
+        },
+        {
+            "title": "病情摘要",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "19824-2",
+                        "display": "Return visit conditions"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "section": [
+                {
+                    "title": "主觀描述",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "61150-9",
+                                "display": "Subjective Narrative"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                },
+                {
+                    "title": "客觀描述",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "61149-1",
+                                "display": "Objective Narrative"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                },
+                {
+                    "title": "評估",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "51847-2",
+                                "display": "Evaluation +​ Plan note"
+                            }
+                        ]
+                    },
+                    "text": {
+                        "status": "generated",
+                        "div": ""
+                    }
+                }
+            ]
+        },
+        {
+            "title": "處置項目",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "29554-3",
+                        "display": "Procedure Narrative"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+            ]
+        },
+        {
+            "title": "處方內容",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "29551-9",
+                        "display": "Medication prescribed Narrative"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+            ]
+        },
+        {
+            "title": "家族圖譜",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "74027-4",
+                        "display": "Family pedigree identifier"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+                {                    
+                }
+            ]
+        },
+        {
+            "title": "門診圖像",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "19005-8",
+                        "display": "Radiology Imaging study [Impression] (narrative)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "entry": [
+                
+            ]
+        }
+    ]
+}
